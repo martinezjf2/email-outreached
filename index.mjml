@@ -1,0 +1,131 @@
+<mjml>
+  <mj-head>
+    <mj-title>Thank You for reaching out!</mj-title>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+
+      }
+    </mj-style>
+
+    <!-- The inline style will be used for reusability throughout the email. -->
+    <mj-style inline="inline">
+      .gradient-text {
+        -webkit-text-stroke: 1px #000000;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .background {
+        background: url("https://email-auto-response.s3.amazonaws.com/jeff.png") no-repeat;
+        background-size: 560px;
+        background-position: right center
+      }
+
+      .logo {
+        display: inline-block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+
+    <mj-wrapper background-color="white">
+
+
+
+
+
+
+      <mj-section>
+        <mj-column>
+          <mj-table padding-top="0">
+            <tr>
+              <td>
+                <img src="https://email-auto-response.s3.amazonaws.com/jeffrey-2.png" width="90px" align="center" alt="jeffrey-logo" href="https://jeffreymartinez.dev" />
+              </td>
+              <td style="text-align: right">
+                <a href="https://jeffreymartinez.dev" style="text-decoration:none; color:#000; text-align: center; font-size: 14px">
+                  View My Portfolio
+                </a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-hero mode="fixed-height" height="260px" background-width="400px" background-height="600px" background-url="https://email-auto-response.s3.amazonaws.com/4.jpg">
+        <mj-text padding="5px 70px 5px 0" color="#6d93fb" font-family="Helvetica" align="right" font-size="30px" font-weight="900" padding-top="90px" css-class="gradient-text">
+          Thank you for
+        </mj-text>
+        <mj-text padding="5px 70px 5px 0" color="#6d93fb" font-family="Helvetica" align="right" font-size="30px" font-weight="900" css-class="gradient-text">
+          reaching out!
+        </mj-text>
+      </mj-hero>
+
+
+
+      <mj-section padding="100px 0px 70px 0px" css-class="background">
+        <mj-column padding-top="0">
+          <mj-text letter-spacing=".4px" line-height="1.4" padding-top="0">
+            Hey there!
+          </mj-text>
+          <mj-text letter-spacing=".4px" line-height="1.4">
+            Thanks for reaching out and taking a peek at my digital playground—I mean portfolio! 😊 I'm thrilled you want to learn more about me. I’m probably somewhere coding my next masterpiece (or figuring out why something isn't working 🙃), but I’ll do my best to get back to you shortly!
+          </mj-text>
+          <mj-text letter-spacing=".4px" line-height="1.4">
+            In the meantime, feel free to grab a virtual cup of coffee and browse around. Talk to you soon!
+          </mj-text>
+          <mj-text letter-spacing=".4px" line-height="1.4" padding-bottom="0" padding-top="25px">
+            Best,
+          </mj-text>
+          <mj-text letter-spacing=".4px" padding-top="0" line-height="1.4">
+            Jeffrey
+          </mj-text>
+
+
+
+          <mj-text padding-top="30px" align="left" padding-left="20px" padding-right="0">
+            <a href="https://www.facebook.com/jeffrey.martinez.90813/" style="display: inline-block; padding: 0 8px;">
+              <img src="https://email-auto-response.s3.amazonaws.com/facebook.png" alt="Facebook" width="30px" />
+            </a>
+            <a href="https://www.instagram.com/martinezjf2/" style="display: inline-block; padding: 0 8px;">
+              <img src="https://email-auto-response.s3.amazonaws.com/instagram.png" alt="Facebook" width="30px" />
+            </a>
+            <a href="https://www.linkedin.com/in/martinezjf2/" style="display: inline-block; padding: 0 8px;">
+              <img src="https://email-auto-response.s3.amazonaws.com/linkedin.png" alt="Facebook" width="30px" />
+            </a>
+            <a href="https://martinezjf2.medium.com/" style="display: inline-block; padding: 0 8px;">
+              <img src="https://email-auto-response.s3.amazonaws.com/medium.png" alt="Facebook" width="30px" />
+            </a>
+            <a href="https://github.com/martinezjf2" style="display: inline-block; padding: 0 8px;">
+              <img src="https://email-auto-response.s3.amazonaws.com/github.png" alt="Facebook" width="30px" />
+            </a>
+          </mj-text>
+
+
+        </mj-column>
+        <mj-column padding="0">
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section>
+        <mj-column>
+          <mj-divider border-width="1px" border-color="lightgrey" padding="0 20px 0px 20px" />
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+
+    </mj-wrapper>
+
+
+
+
+  </mj-body>
+</mjml>
