@@ -6,6 +6,12 @@
         box-sizing: border-box;
 
       }
+
+      @media only screen and (max-width: 480px) {
+        .background {
+          background: none !important;
+        }
+      }
     </mj-style>
 
     <!-- The inline style will be used for reusability throughout the email. -->
@@ -24,6 +30,7 @@
       .logo {
         display: inline-block;
       }
+
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
@@ -53,19 +60,7 @@
       </mj-section>
 
 
-
-      <mj-hero mode="fixed-height" height="260px" background-width="400px" background-height="600px" background-url="https://email-auto-response.s3.amazonaws.com/4.jpg">
-        <mj-text padding="5px 70px 5px 0" color="#6d93fb" font-family="Helvetica" align="right" font-size="30px" font-weight="900" padding-top="90px" css-class="gradient-text">
-          Thank you for
-        </mj-text>
-        <mj-text padding="5px 70px 5px 0" color="#6d93fb" font-family="Helvetica" align="right" font-size="30px" font-weight="900" css-class="gradient-text">
-          reaching out!
-        </mj-text>
-      </mj-hero>
-
-
-
-      <mj-section padding="100px 0px 70px 0px" css-class="background">
+      <mj-section padding="30px 0px 70px 0px" css-class="background">
         <mj-column padding-top="0">
           <mj-text letter-spacing=".4px" line-height="1.4" padding-top="0">
             Hey there!
@@ -86,12 +81,6 @@
 
 
           <mj-text padding-top="30px" align="left" padding-left="20px" padding-right="0">
-            <a href="https://www.facebook.com/jeffrey.martinez.90813/" style="display: inline-block; padding: 0 8px;">
-              <img src="https://email-auto-response.s3.amazonaws.com/facebook.png" alt="Facebook" width="30px" />
-            </a>
-            <a href="https://www.instagram.com/martinezjf2/" style="display: inline-block; padding: 0 8px;">
-              <img src="https://email-auto-response.s3.amazonaws.com/instagram.png" alt="Facebook" width="30px" />
-            </a>
             <a href="https://www.linkedin.com/in/martinezjf2/" style="display: inline-block; padding: 0 8px;">
               <img src="https://email-auto-response.s3.amazonaws.com/linkedin.png" alt="Facebook" width="30px" />
             </a>
@@ -100,6 +89,12 @@
             </a>
             <a href="https://github.com/martinezjf2" style="display: inline-block; padding: 0 8px;">
               <img src="https://email-auto-response.s3.amazonaws.com/github.png" alt="Facebook" width="30px" />
+            </a>
+            <a href="https://www.instagram.com/martinezjf2/" style="display: inline-block; padding: 0 8px;">
+              <img src="https://email-auto-response.s3.amazonaws.com/instagram.png" alt="Facebook" width="30px" />
+            </a>
+            <a href="https://www.facebook.com/jeffrey.martinez.90813/" style="display: inline-block; padding: 0 8px;">
+              <img src="https://email-auto-response.s3.amazonaws.com/facebook.png" alt="Facebook" width="30px" />
             </a>
           </mj-text>
 
